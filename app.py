@@ -9,6 +9,7 @@ from tensorflow.keras.models import load_model
 import streamlit as st
 
 st.title("Image classification")
+st.text("Please upload chinhuahua or muffin's pic for classification")
 
 @st.cache(allow_output_mutation=True)
 def classification_model():
